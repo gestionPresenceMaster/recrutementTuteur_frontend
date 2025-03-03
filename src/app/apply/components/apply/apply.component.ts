@@ -117,7 +117,7 @@ export class ApplyComponent implements OnInit {
             icon: 'success',
           });
           this.resetForm();
-          this.router.navigate(['/']);
+          this.router.navigate(['/home']);
         },
         error: (error) => {
           console.error('Error:', error);
