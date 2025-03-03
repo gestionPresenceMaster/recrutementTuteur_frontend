@@ -32,7 +32,7 @@ export class ApplyComponent implements OnInit {
       nom: [{value: '', disabled: true}, [Validators.required]],
       prenom: [{value: '', disabled: true}, [Validators.required]],
       email: [{value: '', disabled: true}, [Validators.required, Validators.email]],
-      telephone: ['', [Validators.required, Validators.pattern(/^[0-9]{10}$/)]],
+      telephone: ['', [Validators.required, Validators.pattern(/^[0-9]{9}$/)]],
     });
   }
 
